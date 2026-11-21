@@ -1,0 +1,19 @@
+{
+  "dataset": "PaySim",
+  "fraud_threshold": 0.6471,
+  "iso_score_range": [
+    -0.17704216220253677,
+    0.2449558833652032
+  ],
+  "ensemble_weights": {
+    "random_forest": 0.4,
+    "gradient_boost": 0.4,
+    "isolation_forest": 0.2
+  },
+  "test_roc_auc": 0.9993,
+  "test_f1": 0.9988,
+  "rf_cv_auc": 0.9994,
+  "gb_cv_auc": 0.9997,
+  "rf_overfit_gap": 0.0006,
+  "gb_overfit_gap": 0.0003
+}

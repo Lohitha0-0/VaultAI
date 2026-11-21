@@ -1,0 +1,20 @@
+{
+  "dataset": "IEEE-CIS",
+  "fraud_threshold": 0.4,
+  "iso_score_range": [
+    -0.1435844042446237,
+    0.19164753857862282
+  ],
+  "ensemble_weights": {
+    "random_forest": 0.4,
+    "gradient_boost": 0.4,
+    "isolation_forest": 0.2
+  },
+  "test_roc_auc": 0.9014,
+  "test_f1": 0.513,
+  "rf_cv_auc": 0.9137,
+  "gb_cv_auc": 0.8928,
+  "rf_overfit_gap": 0.026,
+  "gb_overfit_gap": 0.005,
+  "total_features": 147
+}

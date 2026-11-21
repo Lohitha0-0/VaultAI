@@ -1,0 +1,11 @@
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VaultAI virtual environment
+fraud_env/
+**/fraud_env/
+
+# Datasets
+*.csv
